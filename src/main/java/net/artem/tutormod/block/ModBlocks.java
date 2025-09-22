@@ -1,4 +1,4 @@
-package net.artem.tutormod.blocks;
+package net.artem.tutormod.block;
 
 import net.artem.tutormod.TutorMod;
 import net.artem.tutormod.item.ModelItems;

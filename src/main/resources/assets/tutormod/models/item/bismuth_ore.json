@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "tutormod:block/bismuth_ore",
   "textures": {
     "all": "tutormod:block/bismuth_ore"
   }

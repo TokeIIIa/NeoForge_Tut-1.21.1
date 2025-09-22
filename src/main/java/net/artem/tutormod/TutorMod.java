@@ -1,6 +1,6 @@
 package net.artem.tutormod;
 
-import net.artem.tutormod.blocks.ModBlocks;
+import net.artem.tutormod.block.ModBlocks;
 import net.artem.tutormod.item.ModelItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
