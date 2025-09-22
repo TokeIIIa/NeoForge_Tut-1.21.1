@@ -1,3 +1,6 @@
 {
-  "item.tutormod.bismuth": "Бисмут"
+  "item.tutormod.bismuth": "Бисмут",
+  "item.tutormod.raw_bismuth": "Необработанный бисмут",
+  "block.tutormod.bismuth_ore": "Бисмутовая руда"
+
 }

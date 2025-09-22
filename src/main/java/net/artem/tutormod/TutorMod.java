@@ -1,7 +1,7 @@
 package net.artem.tutormod;
 
+import net.artem.tutormod.blocks.ModBlocks;
 import net.artem.tutormod.item.ModelItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -35,6 +35,8 @@ public class TutorMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModelItems.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -50,7 +52,13 @@ public class TutorMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey()== CreativeModeTabs.INGREDIENTS) {
             event.accept(ModelItems.BISMUTH);
+            event.accept(ModelItems.RAW_BISMUTH);
         }
+        if (event.getTabKey()== CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.BISMUTH_ORE_ITEM.get());
+
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
