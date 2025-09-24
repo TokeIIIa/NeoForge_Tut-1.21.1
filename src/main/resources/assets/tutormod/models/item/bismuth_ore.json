@@ -1,6 +1,7 @@
 {
-  "parent": "tutormod:block/bismuth_ore",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "all": "tutormod:block/bismuth_ore"
+    "layer0": "tutormod:block/bismuth_ore"
   }
 }
+    

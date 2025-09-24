@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tutormod"
+version="1.0.0"
+displayName="Tutor Mod"
+authors="ToKella"
+description='''Учебный мод для теста предметов, руд и рецептов (бисмут).'''
+
+# Зависимости
+[[dependencies.tutormod]]
+modId="neoforge"
+type="required"
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tutormod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
