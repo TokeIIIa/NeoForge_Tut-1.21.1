@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "tutormod:raw_bismuth"
-  },
-  "result": "tutormod:bismuth",
-  "experience": 0.7,
-  "cooking_time": 200
-}
